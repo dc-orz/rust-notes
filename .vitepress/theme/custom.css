@@ -1,0 +1,8 @@
+/* 侧边栏与正文同底色，用分割线区隔，避免宽屏下左侧出现大片灰色区域 */
+:root {
+  --vp-sidebar-bg-color: var(--vp-c-bg);
+}
+
+.VPSidebar {
+  border-right: 1px solid var(--vp-c-divider);
+}
